@@ -1,0 +1,2 @@
+Download the trainer.ymal file from the following link
+https://github.com/nole23/face-recognition/blob/master/trainer.yml
