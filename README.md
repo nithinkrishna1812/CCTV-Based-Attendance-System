@@ -3,12 +3,13 @@ Fully working without any error enjoy the project.
 
 
 # Requirements
-# Pandas
-# tkinter
-# PIL
-# Opencv-python with contrib
-# Shutil
-# csv
+#Python3.7
+#Pandas
+#tkinter
+#PIL
+#Opencv-python with contrib
+#Shutil
+#csv
 
 
 # Download the trainer.yml file from the following link below
