@@ -81,7 +81,7 @@ def is_number(s):
 def TakeImages():        
     ID=(txt1.get())
     Name=(txt2.get())
-    if(is_number(Id) and name.isalpha()):
+    if(is_number(ID) and name.isalpha()):
         cam = cv2.VideoCapture(0)
         harcascadePath = "haarcascade_frontalface_default.xml"
         detector=cv2.CascadeClassifier(harcascadePath)
@@ -118,7 +118,7 @@ def TakeImages():
             message1.configure(text= res)
 
 def TrainImages():
-    recognizer = cv2.face_LBPHFaceRecognizer.create()
+    recognizer = cv2.face.LBPHFaceRecognizer_create()
     harcascadePath = "haarcascade_frontalface_default.xml"
     detector =cv2.CascadeClassifier(harcascadePath)
     faces,ID = getImagesAndLabels("TrainingImage")
